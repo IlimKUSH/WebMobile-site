@@ -1,0 +1,76 @@
+.logo__text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    color: #1D2830;
+}
+.logo__dot {
+    color: #794CFF;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    color: #1D2830;
+}
+.intro{
+    padding-top: 20px;
+}
+.intro__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__links{
+    display: flex;
+    align-items: center;
+}
+.nav__link{
+    margin-left: 45px;
+}
+.nav__btns{
+    display: flex;
+    align-items: center;
+}
+.custom-dropdown--border{
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+    cursor: pointer;
+}
+.nav__btn-text{
+    background-color: white;
+    border: 2px solid #ECE6FF;
+    border-radius: 4px;
+    padding: 16px 24px;
+    color: #35414B;
+    display: inline-block;
+    margin-left: 16px;
+}
+.nav__btn-text:hover{
+    background-color: #ECE6FF;
+    color: #794CFF;
+    border: 2px solid #ECE6FF;
+}
+.dropdown-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+}
+.link__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+}

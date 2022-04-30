@@ -1,0 +1,55 @@
+@import url(./hero.css);
+@import url(./intro.css);
+@import url(./services.css);
+@import url(./features.css);
+@import url(./projects.css);
+@import url(./testimonials.css);
+@import url(./footer.css);
+
+/* Wrapper */
+.wrapper{ 
+    position: relative; 
+    z-index: 5; 
+    overflow-x: hidden; 
+} 
+.wrapper:before { 
+    content: ''; 
+    height: 820px; 
+    max-width: 100%; 
+    width: 100%; 
+    top: 0; 
+    position: absolute; 
+    z-index: -1; 
+    background-color: #FBFAFE; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%; 
+    border: 1px solid #F0EBFA; 
+}
+/* End Wrapper */
+
+/* General styles */
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* End General styles */

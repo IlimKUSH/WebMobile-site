@@ -1,0 +1,91 @@
+.hero__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.save__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    background-color: #81C43B;
+    background: #81C43B;
+    border-radius: 100px;
+}
+.save__about{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+    left: -33px;
+    padding: 8px 16px 8px 40px;
+    background: #F2F9EB;
+    border-radius: 0px 100px 100px 0px;
+    z-index: -1;
+}
+.hero__mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.team__title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #35414B;
+}
+.team__about{
+    font-weight: 400;
+    line-height: 24px;
+    color: #4E5A65;
+    width: 520px;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.hero__text{
+    width: 760px;
+    margin-top: 10px;
+}
+.hero__features{
+    margin-top: 24px;
+}
+.hero__input{
+    padding: 18px 99px 18px 24px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5EA;
+    border-radius: 4px 0px 0px 4px;
+}
+.hero__btn{
+    right: 15px;
+    position: relative;
+    padding: 18px 45px;
+    background-color: #794CFF;
+    color: #FFFFFF;
+    border: 1px solid #794CFF;
+    border-radius: 0px 4px 4px 0px;
+}
+.hero__img{
+    position: relative;
+    margin-bottom: 80px;
+}
+.hero__bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero__icons-content img:not(:last-child){
+    margin-right: 130px;
+}
+.hero__icons-content{
+    margin-top: 14px;
+}
+.hero__icons{
+    margin-top: 14px;
+}
